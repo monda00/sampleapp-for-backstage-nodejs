@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sampleapp-for-backstage-nodejs
+  description: |
+    This is [sample app](https://github.com/monda00/sampleapp-for-backstage-nodejs) for Backstage.
+  links:
+    - url: https://github.com/monda00/sampleapp-for-backstage-nodejs
+      title: GitHub Repo
+      icon: github
+spec:
+  type: frontend-app
+  lifecycle: prduction
+  owner: masa
