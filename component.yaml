@@ -11,4 +11,7 @@ metadata:
 spec:
   type: frontend-app
   lifecycle: prduction
+  system: backend-example-app
   owner: masa
+  dependsOn:
+    - component:sampleapp-for-backstage-go
