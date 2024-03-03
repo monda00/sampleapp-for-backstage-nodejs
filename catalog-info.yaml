@@ -9,9 +9,9 @@ metadata:
       title: GitHub Repo
       icon: github
 spec:
-  type: frontend-app
+  type: frontend
   lifecycle: prduction
   system: backstage-example-app
   owner: masa
-  dependsOn:
-    - component:sampleapp-for-backstage-go
+  consumesApis:
+    - sample-api
