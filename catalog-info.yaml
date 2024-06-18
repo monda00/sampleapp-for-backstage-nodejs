@@ -4,6 +4,8 @@ metadata:
   name: sampleapp-for-backstage-nodejs
   description: |
     This is [sample app](https://github.com/monda00/sampleapp-for-backstage-nodejs) for Backstage.
+  annotations:
+    'backstage.io/kubernetes-id': 'sampleapp-for-backstage-nodejs'
   links:
     - url: https://github.com/monda00/sampleapp-for-backstage-nodejs
       title: GitHub Repo
