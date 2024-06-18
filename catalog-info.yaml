@@ -11,7 +11,7 @@ metadata:
       title: GitHub Repo
       icon: github
 spec:
-  type: frontend
+  type: service
   lifecycle: prduction
   system: backstage-example-app
   owner: masa
